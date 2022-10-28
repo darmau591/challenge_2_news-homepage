@@ -13,6 +13,7 @@ body{
 
 .container{
   max-width: 1440px;
+  min-width: 320px;
   width: 90%;
   margin: 0 auto;
 }
@@ -63,7 +64,7 @@ z-index: 1;
 .nav:target{
   --state-close:scale(1);
   --state-hamburguer: scale(0);
-  --state-menu: translate(30%);
+  --state-menu: translate(0);
 }
 .nav__menu{
   list-style: none;
